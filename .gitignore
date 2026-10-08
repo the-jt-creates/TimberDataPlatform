@@ -1,0 +1,63 @@
+# SQL Server database backups
+*.bak
+
+# Local / temporary database files
+*.mdf
+*.ldf
+
+# Environment and secrets
+.env
+*.env
+*.key
+*.pem
+
+# IDE / editor files
+.vs/
+.vscode/
+.idea/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+~$*
+
+# Release-test working area
+release-test/
+
+# Local screenshots unless intentionally selected for documentation
+screenshots/
+
+# Local raw data - do not publish unless explicitly reviewed and synthetic
+data/raw/
+
+# Python artifacts if added later
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Personal development notes
+work-log/
+
+# Working data files - keep local for now
+data/
+
+# diagrams.net temporary backup files
+*.bkp
+
+# Unfinished / local ETL work not included in first release
+database/23_classify_load_staging.sql
+database/Bulk_insert_raw.sql
+
+# Unnamed scratch queries
+database/SQLQuery*.sql
+
+# Internal diagnostic scratch work
+database/verification/23_text_diagnostics_examples.sql
+
+# Alternate ERD export not used in portfolio
+docs/TimberDataPlatform_ERD_dark.png
